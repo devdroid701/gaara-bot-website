@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">Gaara Discord Bot</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" id = 'home-page' class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="commands.html" id = 'about-page' class="navbar__links">Commands</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="about.html" id = 'services-page' class="navbar__links">About</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="https://discord.gg/zjFS37vrgQ" target = '_blank' id = 'signup' class="btn">Join Our Server</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <script src='app.js'></script>
+    <div class="gen">
+    <div class="cmd__hd">Admin Commands</div>
+    <h2 class="heading">
+        Use ~~help [command name] for the usage of commands
+    </h2>
+    <ul>
+        <li class='cmd__name'>kick  :  Kicks User out of server</li>
+        <li class='cmd__name'>ban  :  Bans user</li>
+        <li class='cmd__name'>warn  :  Warns a person [5 warns = ban]</li>
+        <li class='cmd__name'>case  :  shows the number of warns</li>
+        <li class='cmd__name'>cw  :  clears warns for a person</li>
+        <li class='cmd__name'>setprefix  :  Sets prefix for the server</li>
+        <li class='cmd__name'>addrole  :  Adds role to a person</li>
+        <li class='cmd__name'>unrole  :  removes role form a person</li>
+        <li class='cmd__name'>set_welcome_message  :  sets welcome message</li>
+        <li class='cmd__name'>set_welcome_channel  :  sets the channel for the message to send</li>
+        <li class='cmd__name'>slm  :  sets leave system</li>
+        <li class='cmd__name'>create  :  creates a channel</li>
+        <li class='cmd__name'>delete  :  deletes a channel</li>
+        <li class='cmd__name'>slowmode  :  sets slowmode</li>
+        <li class='cmd__name'>modon  :  caps limit mod</li>
+        <li class='cmd__name'>modoff  :  switches caps limit off</li>
+        <li class='cmd__name'>filteron  :  sets curse word filter</li>
+        <li class='cmd__name'>filteroff  :  deletes filter system</li>
+        <li class='cmd__name'>mute  :  mutes a person</li>
+        <li class='cmd__name'>unmute  :  unmutes a person</li>
+        <li class='cmd__name'>lock  :  locks a channel</li>
+        <li class='cmd__name'>unlock  :  unlocks a channel</li>
+        <div class="cmd__hd">Game Commands</div>
+        <li class='cmd__name'>rps  :  Rock paper scissors!</li>
+        <li class='cmd__name'>guess  :  Guess the number!</li>
+        <li class='cmd__name'>dice  :  plays a game of dice</li>
+    </ul>
+    </div>
+</body>
+</html>
